@@ -1,0 +1,58 @@
+.caughtPokemonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.caughtPokemonsList {
+    display: flex;
+    flex-direction: row;
+}
+
+.caughtPokemonsList div {
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 15px 10px;
+    background-color: #c70039;
+}
+
+.caughtPokemonsList img {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 5px 0px;
+}
+
+#titleCaught {
+    color: white;
+    font-weight: bolder;
+}
+
+
+#statsPokemonButton {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: #111d5e;
+    color: white;
+}
+
+#freePokemonButton {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: #111d5e;
+    color: white;
+}
+
+#NoCaughtPokemon {
+    color: white;
+    background-color: rgba(247, 24, 24, 0.55);
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+#NoCaughtPokemon:hover {
+    background-color: rgba(247, 24, 24, 1);
+}

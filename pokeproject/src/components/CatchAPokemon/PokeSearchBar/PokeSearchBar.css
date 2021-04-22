@@ -1,0 +1,70 @@
+#searchContainer {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(247, 24, 24, 0.55);
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 100px;
+    width: 350px;
+    transition: all 0.5s ease;
+}
+
+#searchContainer:hover  {
+    background-color: rgba(247, 24, 24, 1)
+}
+
+.pokeSearchbar {
+    display: flex;
+}
+
+.pokeSearchbar div {
+    margin: 15px;
+}
+
+.pokeSearchbar button {
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #111d5e;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pokeSearchbar button:hover {
+    background-color: #3579f8;
+    cursor: pointer;
+}
+
+.pokeSearchbar input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#catchRandomForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+}
+
+#catchRandomForm label {
+    color: white;
+    width: 300px;
+}
+
+#randomPokeButton {
+    width: 2rem;
+    margin: 0px;
+    border-radius: 100%;
+    border: 2px solid #404040;
+    transition: all 0.5s ease;
+}
+
+#randomPokeButton:hover {
+    width: 2.5rem;
+    border-radius: 100%;
+    border-radius: 1px solid;
+}

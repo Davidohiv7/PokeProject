@@ -1,0 +1,17 @@
+#PokeNavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f51000;
+    padding: 10px;
+    width: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.pokeButtons{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

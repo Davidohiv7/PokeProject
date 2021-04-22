@@ -1,0 +1,16 @@
+#pokemonImg {
+    margin: 10px 0px; 
+}
+
+#freePokemon {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: #111d5e;
+    color: white;
+}
+
+#pokemonCard {
+    display: flex;
+    flex-direction: column;
+}

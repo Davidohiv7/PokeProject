@@ -1,0 +1,27 @@
+#pokeHeader {
+    display: flex;
+    align-items: center;
+    background-color: #111d5e;
+    width: 100%;
+}
+
+#pokeHeader a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#pokeHeaderIcon {
+    width: 3rem;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#pokeHeaderTitle {
+    color: #f51000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    -webkit-text-stroke: 1px #1791b0;
+    margin: 0;
+}
