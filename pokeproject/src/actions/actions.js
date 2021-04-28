@@ -1,4 +1,4 @@
-import { SEARCH_SPECIE, FAILED_SEARCH, SEARCHING_POKEMON, SEARCH_POKEMON, CATCH_POKEMON_YES, CATCH_POKEMON_NO, SHOW_DETAILS, FREE_POKEMON } from '../action_types/action_types.js'
+import { SEARCH_SPECIE, FAILED_SEARCH, SEARCHING_POKEMON, SEARCH_POKEMON, CATCH_POKEMON_YES, CATCH_POKEMON_NO, SHOW_DETAILS, RELEASE_POKEMON } from '../action_types/action_types.js'
 
 export function getPokemon(pokemon) {
     return function(dispatch) {
@@ -38,9 +38,9 @@ export function showDetails(payload) {
   }
 }
 
-export function freePokemon(payload) {
+export function releasePokemon(payload) {
   return {
-    type: FREE_POKEMON,
+    type: RELEASE_POKEMON,
     payload
   }
 }

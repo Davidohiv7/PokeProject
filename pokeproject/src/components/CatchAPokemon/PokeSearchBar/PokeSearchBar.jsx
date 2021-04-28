@@ -34,10 +34,11 @@ function PokeSearchbar( { getPokemon }) {
       <div id='searchContainer'>
         <form className='pokeSearchbar' onSubmit={e => {
             e.preventDefault();
-            getPokemon(pokemon)
+            getPokemon(pokemon.split('').map(x => x.toLowerCase()).join('').trim( ) )
+            setPokemon('')
           }}>
             <div>
-              <input type="text" onChange={handleInputChange} name="pokeInput" value={pokemon}/>
+              <input type="text" onChange={handleInputChange} name="pokeInput" value={pokemon} placeholder='Pokemon ID or Name'/>
               <button>Search a Pokemon</button>
             </div>
         </form>

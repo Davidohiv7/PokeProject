@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import './PokeDex.css';
-import { showDetails, freePokemon } from '../../actions/actions.js'
+import { showDetails, releasePokemon } from '../../actions/actions.js'
 
 
 export default function PokeDex() {
@@ -20,7 +20,7 @@ export default function PokeDex() {
                         <div id="pokemonCard" >
                             <span id='titleCaught'>{currentPokemon.name}</span>
                             <input type='image' id='pokemonImg' src={currentPokemon.img} onClick={() => console.log(currentPokemon)}></input>
-                            <button id='freePokemon' onClick={() => dispatch(freePokemon(currentPokemon))}>FreePokemon</button>
+                            <button id='freePokemon' onClick={() => dispatch(releasePokemon(currentPokemon))}>Release Pokemon</button>
                         </div>)}
                     </div>
                 </div>

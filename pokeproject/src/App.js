@@ -6,6 +6,7 @@ import PokeNavBar from './components/PokeNavBar/PokeNavBar.jsx'
 import PokeHome from './components/PokeHome/PokeHome.jsx'
 import CatchAPokemon from './components/CatchAPokemon/CatchAPokemon.jsx'
 import PokeDex from './components/PokeDex/PokeDex.jsx'
+import PokemonDetails from './components/CatchAPokemon/CaughtPokemons/PokemonDetails/PokemonDetails.jsx'
 
 function App() {
   return (
@@ -17,8 +18,12 @@ function App() {
         component={PokeHome}
       />
       <Route
-        exact path='/CatchaPokemon'
+        path='/CatchaPokemon'
         component={CatchAPokemon}
+      />
+      <Route 
+      path="/CatchaPokemon/:id" 
+      component={PokemonDetails} 
       />
       <Route
         exact path='/PokeDex'
